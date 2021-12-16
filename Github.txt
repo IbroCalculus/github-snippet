@@ -1,0 +1,22 @@
+
+Github is a platform for hosting and collaborating on Git repositories.
+
+================== GIT PUSH ======================
+Store a copy of your git on the cloud (Github)
+
+FIRST, Go to github and create a repo.
+follow the command line instructions from there to push from local machine to github repository
+
+00:45:00
+ie
+----------- First time
+	git remote add origin https://github.com/IbroCalculus/practiceRepo.git
+	git branch -M main
+	git push -u origin main
+
+-------- Other times:
+	git push	//If error, pull (git pull), the push (git push)
+
+
+=========== GIT PULL ==============
+	git pull

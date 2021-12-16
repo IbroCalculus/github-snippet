@@ -1,0 +1,3 @@
+
+-When working on a new feature, the first thing to do is pull your main from the online repository, down to local computer.
+-Create a new branch and start working on that branch

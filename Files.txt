@@ -1,0 +1,16 @@
+
+========== CREATE/OPEN AND EDIT A FILE VIA GIT ==================
+	ls		// list files
+	vi test.html	// Open file; else create and open
+	press i to enable insert
+	type in statements
+	press esq
+	:wq		//Save changes
+NB:	:q! INSTEAD OF :wq! will exit without saving changes
+
+===== OPEN FILE TO VIEW / READ ITS CONTENTS =====
+	cat test.html
+
+	git status	//view status
+	git add .	//Add to staging area
+	git commit -m "This is my second commit"

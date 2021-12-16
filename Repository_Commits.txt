@@ -1,0 +1,41 @@
+
+A commit is a safe point
+Each commit is identified by its hash. ie: 2af532fc2cfc4e37fe66be33df9237360ee3247c
+
+=============== CREATE A COMMIT =================
+Move to the master directory i.e cd .. OR cd git_folder as may be necessary
+	git commit -m "This is the first commit"
+
+============ VIEW COMMIT CHANGES/LOGS ================
+	git log			//This shows a brief of the changes, ie: Author, Date, time, Hash and Comment
+	git log --oneline	//This shows the commits only by the commit's Hash and Comment
+
+=========== VIEW ACTUAL CHANGES ========================
+Copy the hash from the above, 
+	git show 2af532fc2cfc4e37fe66be33df9237360ee3247c
+
+=========== CHECK DIFFERENCE / CHANGES BETWEEN COMMITS =============
+	git diff
+
+=========== DISCARD CHANGES ==============
+	git restore index.js
+
+========== CREATE/OPEN AND EDIT A FILE VIA GIT ==================
+	ls		// list files
+	vi test.html	// Open file; else create and open
+	press i to enable insert
+	type in statements
+	press esq
+	:wq		//Save changes
+NB:	:q! INSTEAD OF :wq! will exit without saving changes
+
+===== OPEN FILE TO VIEW / READ ITS CONTENTS =====
+	cat test.html
+
+	git status	//view status
+	git add .	//Add to staging area
+	git commit -m "This is my second commit"
+
+========== AMEND COMMIT DESCRIPTION MESSAGE ==================
+	git commit --amend -m "Added a second commit"
+	git log

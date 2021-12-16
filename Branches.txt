@@ -1,0 +1,49 @@
+
+A branch represent an independent line of development
+
+============== CHECK PRESENT BRANCH YOU ARE WORKING ON ON LOCAL MACHINE AS WELL AS ALL BRANCHES ON LOCAL MACHINE ==============
+	git branch
+
+=========== LIST ALL BRANCHES ON REMOTE SERVER (i.e Github) ==============
+	git branch -r
+
+============= CHECK ALL BRANCHES, BOTH LOCAL AND REMOTE ============
+	git branch -a
+
+================= CREATE A NEW BRANCH ==================
+	git branch NewBranch
+ NB: Creating a new branch doesn't automatically switch to that branch, you have to switch as depicted below in other to work within it instead of the main or present br
+
+================= SWITCH BRANCH ==================
+	git checkout NewBranch		//This will switch from main to NewBranch	
+
+============ CREATE A NEW BRANCH AND SWITCH TO THE NEW BRANCH CREATED ===========
+	git checkout -b NewBranch
+
+
+================= SWITCH TO PREVIOUS BRANCH ==================
+	git checkout -			<-- Returns to main branch
+
+================= PUSH BRANCH TO GITHUB ==================
+	git push -u origin NewBranch	OR	 git push --set-upstream origin NewBranch2	
+
+================= DELETE BRANCH ON LOCAL MACHINE ==================
+	Move out of the branch, then:
+	git branch -d NewBranch	
+
+==================== MERGE BRANCHES =============================
+When it comes to merging two branches, it is best practice to be done via a pull request.
+
+------------ METHOD 1 OF MERGING Main branch and NewBranch1 (not best practice) ==========
+	git merge NewBranch1		\\Assuming you are already in the main branch
+
+------------ METHOD 2 OF MERGING Main branch and NewBrach1 Using pull request) ==========
+CHECK Tutorial; 1:20:00
+
+	Open Github
+	within the newBranch branch
+	Select "Compare & pull request" or "New pull request"
+	main <- newBranch
+	Create pull request
+	Merge pull request
+	delete newBranch branch

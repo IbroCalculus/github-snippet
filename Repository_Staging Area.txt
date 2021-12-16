@@ -1,0 +1,57 @@
+
+============ REPOSITORY ==============
+Repositories in Git contain a collection of various different versions of a project
+
+
+=========== CREATING A REPOSITORY ===================
+2 ways of creating git in a directory
+----------- 1. Navigate to the folder, right click and select Git (Auto navigate to the directory) ---------
+
+----------- 2. As shown below:
+cd Desktop
+ls		(This lists all files and folders in Desktop)
+mkdir Git-test-Folder
+cd Git-test-Folder
+ls			<--- List Empty for now
+
+======= Make working directory into Git repository =========
+	git init .
+NB: the command is only for brand new project, not existing or projects downloaded from Github
+
+
+======== Disable working directory from being a Git repository (Hence, loose all git priviledge) ============
+		rm -rf .git
+
+======== GIT TOUCH (Create new files within the repository) ===========
+	touch index.html
+	touch index.css
+	touch index.js
+	ls	(This will list all the files in the repository; ie: index.html, index.css, index.js)
+
+========== GIT STATUS ===============
+This shows the current state of the git working directory and staging area.
+	git status
+
+
+============ GIT ADD (Add a commit to a staging area from the current directory downwards) ==============
+	git add index.html	Add the file "index.htm" to the staging area
+	git add .		Add everything downwards to the staging area
+
+======== ADD EVERY THING WITHING THE MASTER TO THE STAGING AREA (even outside the current directory) ===========
+	git add -A
+
+=========== REMOVE GIT FILE FROM STAGING AREA ============
+	git rm --cached index.html		// Remove index.html from the staging area
+	git rm -r --cached .			// Remove all files from the staging area.
+
+=========== DISCARD CHANGES ==============
+	git restore index.js
+	git restore .		// Restore all
+
+======== CREATE A FOLDER/FILE WITHIN THE REPO FOLDER ===========
+	mkdir test
+	cd test
+	touch test.js
+
+========= RETURN TO MASTER DIRECTORY ============= 117
+	cd ..git s

@@ -1,0 +1,11 @@
+
+ CHECk: 01:42:00
+
+ This is a situation where by the main branch in the online repo is ahead of your current branch
+ To apply your changes to the main branch in the online repo, the online update will first be applied to your current branch
+ before trying to apply your new changes.
+
+ IN OTHER WORDS: We get the latest changes on the main branch, and then applying our present changes on top of it.
+
+WHILE ON THE NEW BRANCH
+ git pull -r origin main

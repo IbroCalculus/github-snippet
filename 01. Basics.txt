@@ -1,0 +1,22 @@
+Git is a version control system that allows one or more people to work on the same code base or project. 
+Git it the most popular version control system in the world.
+
+A version control system records the changes made to our codes over time in a special database known as a repository.
+We can look at our project history and see who has made what changes, when and what. And if theres an error, we can easily switch back to previous
+
+With a version control system, whe can track our history, as well as work together on same project.
+
+VERSION CONTROL SYSTEMS, falls into 2 categories; ie: CENTRALIZED and DISTRIBUTED. Git is DISTRIBUTED
+
+Some Git projects hosting platforms are: Github, GitLab, BitBucket, AWS CodeCommit etc
+
+--------- Initialize git on a local directory ------------
+ -Right click and open with git
+ -git init
+
+---------- COMMANDS Git bash/CDM ---------------
+	git --version			(OPEN in either gitbash or cmd(admin); If true, it confirms git is installed on machine)
+	git --help
+	Ctrl + l -----> Clears the screen
+	q ---> to move back out
+	ls -> Lists all files and folders within the git repository.
