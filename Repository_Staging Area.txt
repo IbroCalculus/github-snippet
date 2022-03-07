@@ -31,6 +31,8 @@ NB: the command is only for brand new project, not existing or projects download
 ========== GIT STATUS ===============
 This shows the current state of the git working directory and staging area.
 	git status
+         OR
+        git status --short (git status -s).   //Shows empty if working tree is clean
 
 
 ============ GIT ADD (Add a commit to a staging area from the current directory downwards) ==============

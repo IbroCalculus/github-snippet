@@ -1,6 +1,10 @@
 
 ========== CREATE/OPEN AND EDIT A FILE VIA GIT ==================
 	ls		// list files
+	touch File.txt	// Create a new file,
+	start File.txt	// open file
+        echo "This is a sample text for Git" >> File.txt  //Insert/Append text
+
 	vi test.html	// Open file; else create and open
 	press i to enable insert
 	type in statements
@@ -9,7 +13,7 @@
 NB:	:q! INSTEAD OF :wq! will exit without saving changes
 
 ===== OPEN FILE TO VIEW / READ ITS CONTENTS =====
-	cat test.html
+	cat test.html:q:
 
 	git status	//view status
 	git add .	//Add to staging area

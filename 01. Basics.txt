@@ -1,12 +1,28 @@
+Git was created in the year 2005 by Linus Torvalds, who is also known as the father or the main developer behind the Linux Kernel.
+
 Git is a version control system that allows one or more people to work on the same code base or project. 
 Git it the most popular version control system in the world.
 
 A version control system records the changes made to our codes over time in a special database known as a repository.
-We can look at our project history and see who has made what changes, when and what. And if theres an error, we can easily switch back to previous
+We can look at our project history and see who has made what changes, when and what. And if theres an error, we can easily switch back to previous versions.
 
 With a version control system, whe can track our history, as well as work together on same project.
 
-VERSION CONTROL SYSTEMS, falls into 2 categories; ie: CENTRALIZED and DISTRIBUTED. Git is DISTRIBUTED
+In other words, with the help of a version control system, you will be able to;
+- Revert selected files back to a previous state.
+- Revert the entire project back to a previous state.
+- Compare changes over time.
+- To see who last modified something that might be causing a problem.
+- To see who introduced a new issue, and when the issue has appeared.
+
+VERSION CONTROL SYSTEMS, falls into 2 categories; ie: CENTRALIZED and DISTRIBUTED.
+- Centeralized version control systems have a single server that contains all the versioned files, and a number of clients that check out the files from that central place.
+=== Disadvantage --> Single Point of Failure
+
+- Distributed version control systems enable clients to fully mirror the repository, including its full history. Thus, if any server goes down, and these clients were collaborating with that server, any of the client's repositories can be copied back to the server to restore it.
+So, basically every clone is really a full backup of add the data, which means that there is no single point of failure anymore.
+
+Git is DISTRIBUTED
 
 Some Git projects hosting platforms are: Github, GitLab, BitBucket, AWS CodeCommit etc
 

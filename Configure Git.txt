@@ -1,5 +1,5 @@
 
-== This configuration is done once, already done on my present PC ======
+== This configuration is done once, already done on my present PC, though can be reconfigured ======
 
 	git config --global user.name "Ibrocalculus"
 	git config --global user.email "ibsuleiman9@gmail.com"
