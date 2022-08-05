@@ -5,5 +5,10 @@
 	git config --global user.email "ibsuleiman9@gmail.com"
 	git config --global color.ui auto
 
+=============== TO VIEW CONFIGURED DETAILS ================
+	git config user.name
 	git config -l		// List all the above details; ie: username.name, user.email, color.ui, and other misc details
 	
+
+=========== CLEAR SCREEN ==========
+        cls

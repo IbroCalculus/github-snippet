@@ -18,3 +18,9 @@ NB:	:q! INSTEAD OF :wq! will exit without saving changes
 	git status	//view status
 	git add .	//Add to staging area
 	git commit -m "This is my second commit"
+
+===== REMOVE A FILE ============
+       rm File.txt
+
+===== REMVOVE DIRECTORY =======
+      rmdir FolderName
