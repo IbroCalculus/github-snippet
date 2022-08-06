@@ -36,3 +36,4 @@ Some Git projects hosting platforms are: Github, GitLab, BitBucket, AWS CodeComm
 	Ctrl + l -----> Clears the screen
 	q ---> to move back out
 	ls -> Lists all files and folders within the git repository.
+	ls -al -> Lists all HIDDEN files and folders within the git repository.

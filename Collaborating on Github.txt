@@ -1,0 +1,12 @@
+
+- Create a branch to work on separately from the main branch ie git checkout -b BranchX1
+- Add modifactions to staging area and commit changes on BranchX1
+- DON'T merge  BranchX1 locally to the main branch, because it will override the main branch on the remote repo's main branch
+
+- git push origin BranchX1
+
+
+- Refresh Github repo and view BranchX1 branch
+- Make a pull request to enable BranchX1 to be merged with the main branch
+
+- Always git pull to make modication on repo files

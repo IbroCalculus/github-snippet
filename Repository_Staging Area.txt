@@ -10,9 +10,11 @@ Repositories in Git contain a collection of various different versions of a proj
 ----------- 2. As shown below:
 cd Desktop
 ls		(This lists all files and folders in Desktop)
+//ls -al -> Lists all HIDDEN files and folders within the git repository.
 mkdir Git-test-Folder
 cd Git-test-Folder
 ls			<--- List Empty for now
+//ls -al -> Lists all HIDDEN files and folders within the git repository.
 
 ======= Make working directory into Git repository =========
 	git init .
@@ -27,6 +29,7 @@ NB: the command is only for brand new project, not existing or projects download
 	touch index.css
 	touch index.js
 	ls	(This will list all the files in the repository; ie: index.html, index.css, index.js)
+	ls -al -> Lists all HIDDEN files and folders within the git repository.
 
 ========== GIT STATUS ===============
 This shows the current state of the git working directory and staging area.

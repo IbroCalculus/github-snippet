@@ -1,0 +1,6 @@
+
+-Get the url of the repo
+-git clone url
+
+ -OR-
+Download and extract zip

@@ -1,6 +1,7 @@
 
 ========== CREATE/OPEN AND EDIT A FILE VIA GIT ==================
 	ls		// list files
+	ls -al -> Lists all HIDDEN files and folders within the git repository.
 	touch File.txt	// Create a new file,
 	start File.txt	// open file
         echo "This is a sample text for Git" >> File.txt  //Insert/Append text

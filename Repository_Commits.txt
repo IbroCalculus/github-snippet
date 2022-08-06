@@ -39,3 +39,35 @@ NB:	:q! INSTEAD OF :wq! will exit without saving changes
 ========== AMEND COMMIT DESCRIPTION MESSAGE ==================
 	git commit --amend -m "Added a second commit"
 	git log
+
+========= AMEND COMMIT CONTENT ========
+We can used 3 different commands for undoing a commit, ie: Checkout, Revert & Reset commit
+
+------ 1 Checkout commit ------
+It is a read only commit, view commit at a particular history.
+Get the particular commit history's hash id and copy it ie using;
+
+        git log --oneline          ie de75ad5
+        git checkout de75ad5
+
+        git checkout main     //Once done viewing, use this command to return to default master
+
+------ 2 Revert commit ------
+As it name suggest, it reverses changes made to a commit. (I see no reason to use this)
+Get the particular commit history's hash id and copy it ie using;
+
+        git log --oneline          ie de75ad5
+        git revert de75ad5
+        
+        Add commit message (press esc + ;)
+        :wq to escape
+        //Google more, kinda confused a littel about the revert command
+
+------ 3 Reset commit ------
+Permanently delete commitS. (I see no reason to use this)
+Get the particular commit history's hash id and copy it ie using;
+
+        git log --oneline          ie de75ad5
+        git reset de75ad5   //At this stage, still not permanently deleted, still reversible. 
+        git reset de75ad5 --hard    //Now all commits AFTER de75ad5 will be permanently deleted (de75ad5 NOT INCLUSIVE).
+        

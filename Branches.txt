@@ -17,7 +17,7 @@ A branch represent an independent line of development
 ================= SWITCH BRANCH ==================
 	git checkout NewBranch		//This will switch from main to NewBranch	
 
-============ CREATE A NEW BRANCH AND SWITCH TO THE NEW BRANCH CREATED ===========
+============ CREATE A NEW BRANCH AND SWITCH TO THE NEW BRANCH CREATED =========== 
 	git checkout -b NewBranch
 
 
@@ -47,3 +47,10 @@ CHECK Tutorial; 1:20:00
 	Create pull request
 	Merge pull request
 	delete newBranch branch
+
+==================== FIXING CONFLICTS WHEN MERGING BRANCHES ====================
+Assuming main branch and Branch1
+If changes were made to the main branch after Branch1 was created, trying to merge Branch1 to Main branch will result in a conflict.
+
+To fix that, delete the line that appears with HEAD (Current Change) and (Incoming Change), again, add to staging area and commit.
+CHECK MORE ON THIS, FEELING SLEEPY AND TIRED WHEN DOING THIS
