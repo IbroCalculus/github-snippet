@@ -28,11 +28,13 @@ NOTE: You can use escape characters using \
 12. Task list
 
 1. ======= WRITING HEADINGS ===========
+
 # Begin the title with the '#' symbol, Similar to HTML h1. Note space between # and the text
 ## Similar to HTML h2.
 Similarly, it runs from a single # through to 6#, similar to HTML h1 through h5
 
 2. ====== Writing Paragraphs ============
+
 Simply write the paragraph text like this, without the '#' symbol.
 
 NOTE: To give a line break, give double line space between texts
@@ -55,14 +57,15 @@ NOTE: To give a line break, give double line space between texts
 
 
 4. ==== URL ==========
-[This is the linke to google website](http://www.google.com)
 
-[This is the linke to google website](http://www.google.com, "This is the title when hover over the link)
+[Link to google website](http://www.google.com)
+[Link to google website](http://www.google.com, "This is the title when hover over the link")
 
 Click  [Here](http://www.google.com, "Google") to visit google
 
 
 5. ==== INLINE CODE ====
+
 Include any inline code by surrounding it with a `backtik` symbol, ie `<p>This is a paragraph </p>`
 
 6. ==== BLOCK OF CODE (Supported in github, not default to markdown) ====
@@ -80,7 +83,6 @@ let num = Math.random()
 ```
 
 7. ===== IMAGES ====
- ![alt text](https://picsum.photos/200/200)
  ![alt text](https://markdown-here.com/img/icon256.png)
 
 
@@ -89,10 +91,11 @@ let num = Math.random()
 
 
 9. ==== TABLES (Supported in github, not default to markdown) =====
- | header 1 | Header 2 | Header 3 |
- | --- | --- | --- |
- | Content 1 | Content 2 | Content 3 |
- | Content 4 | Content 5 | Content 6 |
+
+| header 1 | Header 2 | Header 3 |
+| --- | --- | --- |
+| Content 1 | Content 2 | Content 3 |
+| Content 4 | Content 5 | Content 6 |
 
 
 10. ==== BOLD, ITALIC, STRIKETHROUGH ===
