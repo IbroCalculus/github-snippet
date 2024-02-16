@@ -12,12 +12,16 @@ A branch represent an independent line of development
 
 ================= CREATE A NEW BRANCH ==================
 	git branch NewBranch
- NB: Creating a new branch doesn't automatically switch to that branch, you have to switch as depicted below in other to work within it instead of the main or present br
+ NB: Creating a new branch doesn't automatically switch to that branch, you have to switch as depicted below in other to work within it instead of the main or present branch
+
+ NB: To create a branch at a previous commit, checkout to that commit, then git branch NewBranch at that commit. (CHECK: Checkout, Reset, Stash.txt to checkout)
 
 ================= SWITCH BRANCH ==================
-	git checkout NewBranch		//This will switch from main to NewBranch	
+	git switch NewBranch		// Same as below, more recent and preferred. This will switch from main to NewBranch
+	git checkout NewBranch		// Older method, still used though
 
 ============ CREATE A NEW BRANCH AND SWITCH TO THE NEW BRANCH CREATED =========== 
+	git switch -c NewBranch		// Same as below, more recent and preferred.
 	git checkout -b NewBranch
 
 

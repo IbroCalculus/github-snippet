@@ -37,6 +37,9 @@ This shows the current state of the git working directory and staging area.
          OR
         git status --short (git status -s).   //Shows empty if working tree is clean
 
+	git reflog (Similar to above, more detailed)
+
+
 
 ============ GIT ADD (Add a commit to a staging area from the current directory downwards) ==============
 	git add index.html	Add the file "index.htm" to the staging area

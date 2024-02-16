@@ -10,6 +10,8 @@ Move to the master directory i.e cd .. OR cd git_folder as may be necessary
 	git log			//This shows a brief of the changes, ie: Author, Date, time, Hash and Comment
 	git log --oneline	//This shows the commits only by the commit's Hash and Comment
 
+	git reflog (Similar to above, more detailed)
+
 =========== VIEW ACTUAL CHANGES ========================
 Copy the hash from the above, 
 	git show 2af532fc2cfc4e37fe66be33df9237360ee3247c

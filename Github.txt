@@ -11,7 +11,7 @@ follow the command line instructions from there to push from local machine to gi
 ie
 ----------- First time
 	git remote add origin https://github.com/IbroCalculus/practiceRepo.git
-      git remote -v // OPTIONAL, To check if bothe local and remote serve(github) connected well
+        git remote -v // OPTIONAL, To check if both local and remote serve(github) connected well
 	git branch -M main
 	git push -u origin main
 

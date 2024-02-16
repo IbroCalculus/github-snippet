@@ -1,0 +1,52 @@
+CHECKOUT is used to temporarily move back to a previous commit.
+RESET is used to revert permanently to a previous commit.
+STASH is used to discard all current changes being worked on that have not been staged, to return to most recent commit.
+
+================= CHECKOUT ========================
+Assume present commit is "Commit No. 9" which is indicated by HEAD tage,
+Assume want to temporarily go back to "Commit No. 7", get the hash after running 'git log', then:
+
+ $ git checkout  40876189e0b844ab15c0feab7dbd58b2eff4a06c   (The hash of "Commit No. 7")
+
+To return to most recent commit, do;
+$ git checkout main
+
+
+
+================= RESET ========================
+2 types; soft and hard;
+
+$ git reset -- soft 40876189e0b844ab15c0feab7dbd58b2eff4a06c  (All above commits remain, but are unstaged)
+
+$ git reset -- hard 40876189e0b844ab15c0feab7dbd58b2eff4a06c  (All above commits are permently discarded)
+
+
+================= STASH ===================
+allows to temporarily save changes in your working directory that are not ready to be committed yet. 
+Assuming last commit is; "Commit No. 9", now working on some changes which are not yet staged or committed, to temporarily discard these and return to "Commit No. 9", do;
+$ git stash
+
+- To apply stashed changes after returning back to the branch;
+$ git stash apply
+
+- To remove stash after applying
+$ git stash pop
+
+- To view list of stash
+$ git stash list
+
+- To apply a specific stash
+$ git stash apply stash@{1}
+
+- To drop stash
+$ git stash drop stash@{2}
+
+- To clear all stashes
+$ git stash clear
+
+
+
+
+
+
+
